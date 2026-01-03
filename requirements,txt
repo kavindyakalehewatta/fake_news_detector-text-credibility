@@ -1,0 +1,26 @@
+# Core dependencies
+torch==2.0.1
+transformers==4.30.0
+sentence-transformers==2.2.2
+pymongo==4.3.3
+flask==2.3.2
+python-dotenv==1.0.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+pandas==2.0.2
+numpy==1.24.3
+scikit-learn==1.3.0
+
+# For data processing
+pandas
+numpy
+
+# For API
+fastapi==0.100.0
+uvicorn==0.22.0
+
+# For async tasks
+celery==5.3.1
+
+# For embeddings
+openai==0.27.8  # Optional for better embeddings
